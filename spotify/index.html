@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+		<title>Spotify Jukebox App</title>
+		<link rel="stylesheet" href="../css/reset.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:500,400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../css/projects.css">
+	</head>
+	<body>
+		<header>
+			<div class="container clearfix">
+				<a href="../index.html">
+					<img src="../img/logo.gif" id="logo">
+				</a>
+				<nav class="navContainer">
+					<ul id="navbar">
+						<li data-navigation-item="1"><a href="../index.html">Home</a></li>
+						<li data-navigation-item="2"><a href="#">Projects</a></li>
+						<li data-navigation-item="3"><a href="#">Contact</a></li>
+					</ul>
+					<div id="menu">
+						<div class="menuContainer">
+							<span class="icon_bar"></span>
+							<span class="icon_bar"></span>
+							<span class="icon_bar"></span>
+						</div>
+						<div class="modal">
+							<ul class="navigation">
+								<li data-navigation-item="1"><a href="../index.html">Home</a></li>
+								<li data-navigation-item="2"><a href="#">Projects</a></li>
+								<li data-navigation-item="3"><a href="#">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<h1>Spotify Jukebox App</h1>
+		<section id="roles_tools">
+			<div class="container">
+				<div class="desktop">
+					<img src="../img/spotifyDesktop.jpg"/>
+				</div>
+			</div>
+		</section>
+		<section id="role">
+			<div>
+				<h2>My Roles</h2>
+				<ul>
+					<li>UI</li>
+					<li>Development</li>
+				</ul>
+			</div>
+			<div>
+				<h2>Software</h2>
+				<ul>
+					<li>Git</li>
+					<li>Bower/Yeoman</li>
+					<li>Sublime Text 3</li>
+				</ul>
+			</div>
+			<div id="skills">
+				<h2 class="tools">Skills</h2>
+				<ul>
+					<li>HTML5/CSS</li>
+					<li>JavaScript/jQuery</li>
+					<li>AJAX/JSON</li>
+					<li>APIs</li>
+				</ul>
+			</div>
+		</section>
+		<section id="ui">
+			<div id="summary">
+				<h2>Summary</h2>
+				<p>My partner and I decided to create a Jukebox Web App for Spotify where I would primarily focus on development. After reviewing the Spotify and Echo Nest API, we agreed upon the app’s features. The features we agreed upon were also divided into necessary and “nice to have”. This allowed us to first create an app with the necessary features and then focus on the “nice to have” features afterwards. Using a scrumboard, we devised two 5-day sprints that created daily tasks working towards completing each feature.</p>
+			</div>
+		</section>
+		<img src="../img/scrum.png" class="scrum"/>
+		<section id="dev">
+			<div class="title">
+				<h1>Development</h1>
+			</div>
+			<div class="container">
+				<div id="devDescrip">
+					<p>I began by focusing on the search function of the app. The search function required an autocomplete function through JavaScript/jQuery. Using the suggest method in the Echo Nest API, I was able to obtain a list of recommended artists as a user was typing their desired artist.</p>
+					<p id="spotifyAjax">Then, once the user selects an artist, another AJAX call was required for the data from the Spotify API which included the artist’s image, top tracks, albums, and related artists.</p>
+				</div>
+				<div id="qExample">
+					<h2>Example query</h2>
+					<p>http://developer.echonest.com/api/v4/artist/suggest?api_key=FILDTEOIK2HBORODV&name=rad&results=5</p>
+					<div id="suggestArtist">
+						<h2>Result</h2>
+						<img src="../img/suggestArtist.jpg"/>
+					</div>
+				</div>
+			</div>
+			<div id="finalApp">
+				<h2>Final App Design</h2>
+				<img src="../img/fullsite.jpg" alt="">
+			</div>
+			<div class="ghLink">
+				<a href="https://github.com/karenucol/jukebox">View on Github</a>
+			</div>
+		</section>
+		<nav id="other_projects" class="content-2">
+			<div class="container">
+				<a href="../skype/index.html" id="skype">
+					<figure>
+						<div class="projectTitle1">
+							<p>Previous Project</p>
+							<h3>Skype Redesign</h3>
+						</div>
+						<img src="../img/skype.gif"/>
+					</figure>
+				</a>
+				<a href="../usgs/index.html" id="usgs">
+					<figure>
+						<div class="projectTitle2">
+							<p>Next Project</p>
+							<h3>Illinois Rivers Web App</h3>
+						</div>
+						<img src="../img/USGS_logo.gif"/>
+					</figure>
+				</a>
+			</div>
+		</nav>
+		<section id="social" class="content-3">
+			<h2>GET IN TOUCH</h2>
+			<a href="http://www.github.com/iseo12" target="_blank">
+				<i class="fa fa-github fa-3x"></i>
+			</a>
+			<a href="http://www.linkedin.com/in/iseo12" target="_blank">
+				<i class="fa fa-linkedin fa-3x"></i>
+			</a>
+			<a href="">
+				<i class="fa fa-envelope fa-3x"></i>
+			</a>
+		</section>
+		<footer>
+			<div class="container">
+				<p>Copyright &copy; 2015<span> Isaac Seo</span></p>
+			</div>
+		</footer>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="../js/main.js"></script>
+</html>

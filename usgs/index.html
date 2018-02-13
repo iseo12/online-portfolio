@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+		<title>Illinois Rivers Web App</title>
+		<link rel="stylesheet" href="../css/reset.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../css/projects.css">
+	</head>
+	<body>
+		<header>
+			<div class="container clearfix">
+				<a href="../index.html">
+					<img src="../img/logo.gif" id="logo">
+				</a>
+				<nav class="navContainer">
+					<ul id="navbar">
+						<li data-navigation-item="1"><a href="../index.html">Home</a></li>
+						<li data-navigation-item="2"><a href="#">Projects</a></li>
+						<li data-navigation-item="3"><a href="#">Contact</a></li>
+					</ul>
+					<div id="menu">
+						<div class="menuContainer">
+							<span class="icon_bar"></span>
+							<span class="icon_bar"></span>
+							<span class="icon_bar"></span>
+						</div>
+						<div class="modal">
+							<ul class="navigation">
+								<li data-navigation-item="1"><a href="#">Home</a></li>
+								<li data-navigation-item="2"><a href="#">Projects</a></li>
+								<li data-navigation-item="3"><a href="#">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<h1>Illinois Rivers Web App</h1>
+		<section id="roles_tools">
+			<div class="container">
+				<div class="desktop">
+					<img src="../img/usgs.png"/>
+				</div>
+			</div>
+		</section>
+		<div id="role">
+			<div>
+				<h2>My Roles</h2>
+				<ul>
+					<li>UI</li>
+					<li>Development</li>
+				</ul>
+			</div>
+			<div>
+				<h2>Software</h2>
+				<ul>
+					<li>Photoshop CS6</li>
+					<li>Sublime Text 2</li>
+					<li>WinSCP</li>
+				</ul>
+			</div>
+			<div>
+				<h2 class="tools">Skills</h2>
+				<ul>
+					<li>HTML5/CSS</li>
+					<li>JavaScript</li>
+					<li>PHP</li>
+				</ul>
+			</div>
+		</div>
+		<section id="ui">
+			<div id="summary">
+				<h2>Summary</h2>
+				<p>I first layed out a 12 column grid based design for the app using photoshop. PHP was used to fetch data from the USGS database and switch between different rivers monitored by the Illinois Water Science Center. PHP was also allows the user change the date range of the graphs that display nitrate/phosphate data. The map was displayed through the use of the Esri API and displays the location of the selected rivers through JavaScript.</p>
+			</div>
+		</section>
+		<div id="fullsite">
+			<h2>Final App Design</h2>
+			<img src="../img/nitratesPage.png"/>
+			<div class="ghLink">
+				<a href="https://il.water.usgs.gov/rtd2/index.php?state=il" target="_blank">View live site</a>
+			</div>
+		</div>
+		<nav id="other_projects" class="content-2">
+			<div class="container">
+				<a href="../spotify/index.html" id="spotify">
+					<figure>
+						<div class="projectTitle1">
+							<p>Previous Project:</p>
+							<h3>Spotify Web App</h3>
+						</div>
+						<img src="../img/spotify.png"/>
+					</figure>
+				</a>
+				<a href="../pulseband/index.html" id="csv">
+					<figure>
+						<div class="projectTitle2">
+							<p>Next Project:</p>
+							<h3>CSV Landing Page</h3>
+						</div>
+						<img src="../img/csvsite.png"/>
+					</figure>
+				</a>
+			</div>
+		</nav>
+		<section id="social" class="content-3">
+			<h2>GET IN TOUCH</h2>
+			<a href="http://www.github.com/iseo12" target="_blank">
+				<i class="fa fa-github fa-3x"></i>
+			</a>
+			<a href="http://www.linkedin.com/in/iseo12" target="_blank">
+				<i class="fa fa-linkedin fa-3x"></i>
+			</a>
+			<a href="">
+				<i class="fa fa-envelope fa-3x"></i>
+			</a>
+		</section>
+		<footer>
+			<div class="container">
+				<p>Copyright &copy; 2015<span> Isaac Seo</span></p>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="../js/main.js"></script>
+	</body>
+</html>
