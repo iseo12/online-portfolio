@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="../css/reset.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../css/animate.css">
 		<link rel="stylesheet" href="../css/projects.css">
 	</head>
 	<body>
@@ -41,7 +42,7 @@
 		<h1>Skype Website Redesign</h1>
 		<section id="roles_tools">
 			<div class="container">
-				<div class="desktop">
+				<div class="desktop wow fadeIn">
 					<img src="../img/skypeDesktop.jpg"/>
 				</div>
 			</div>
@@ -65,18 +66,19 @@
 			<div id="skills">
 				<h2 class="tools">Skills</h2>
 				<ul>
-					<li>HTML5/CSS</li>
+					<li>HTML5/SCSS</li>
 					<li>JavaScript/jQuery</li>
+					<li>Webpack</li>
 				</ul>
 			</div>
 		</div>
 		<section id="ui">
 			<div id="summary">
 				<h2>Summary</h2>
-				<p>The Skype main page redesign I used from Dribbble by Sumit Chakraborty was based on the exisiting mainpage for Skype. First, I had to create a tablet and mobile versions of the webpage using Photoshop. I used HTML5 and CSS3 to recreate the fully-responsive main page. jQuery/JavaScript was used for the scrolling navigation and overlay navigation at mobile size.</p>
+				<p>The Skype main page redesign I used from Dribbble by Sumit Chakraborty was based on the exisiting mainpage for Skype. First, I had to create a tablet and mobile versions of the webpage using Photoshop. I used HTML5 and SCSS to recreate the fully-responsive main page with flex-box that was compiled through Webpack. jQuery/JavaScript was used for the scrolling navigation and overlay navigation at mobile size.</p>
 			</div>
 		</section>
-		<div id="fullsite">
+		<div id="fullsite" class="wow fadeIn">
 			<h2>Site Design</h2>
 			<img src="../img/skype_home.png"/>
 			<div class="ghLink">
@@ -113,16 +115,20 @@
 			<a href="http://www.linkedin.com/in/iseo12" target="_blank">
 				<i class="fa fa-linkedin fa-3x"></i>
 			</a>
-			<a href="">
+			<a href="mailto:iseo12@gmail.com">
 				<i class="fa fa-envelope fa-3x"></i>
 			</a>
 		</section>
 		<footer>
 			<div class="container">
-				<p>Copyright &copy; 2015<span> Isaac Seo</span></p>
+				<p>Copyright &copy; 2018<span> Isaac Seo</span></p>
 			</div>
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="../js/main.js"></script>
+		<script src="../js/wow.min.js"></script>
+    <script>
+    	new WOW().init();
+    </script>
 	</body>
 </html>

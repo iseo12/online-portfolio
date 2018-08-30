@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="../css/reset.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Roboto:500,400,300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../css/animate.css">
 		<link rel="stylesheet" href="../css/projects.css">
 	</head>
 	<body>
@@ -41,7 +42,7 @@
 		<h1>Spotify Jukebox App</h1>
 		<section id="roles_tools">
 			<div class="container">
-				<div class="desktop">
+				<div class="desktop wow fadeIn">
 					<img src="../img/spotifyDesktop.jpg"/>
 				</div>
 			</div>
@@ -78,7 +79,7 @@
 				<p>My partner and I decided to create a Jukebox Web App for Spotify where I would primarily focus on development. After reviewing the Spotify and Echo Nest API, we agreed upon the app’s features. The features we agreed upon were also divided into necessary and “nice to have”. This allowed us to first create an app with the necessary features and then focus on the “nice to have” features afterwards. Using a scrumboard, we devised two 5-day sprints that created daily tasks working towards completing each feature.</p>
 			</div>
 		</section>
-		<img src="../img/scrum.png" class="scrum"/>
+		<img src="../img/scrum.png" class="scrum wow fadeIn"/>
 		<section id="dev">
 			<div class="title">
 				<h1>Development</h1>
@@ -93,16 +94,16 @@
 					<p>http://developer.echonest.com/api/v4/artist/suggest?api_key=FILDTEOIK2HBORODV&name=rad&results=5</p>
 					<div id="suggestArtist">
 						<h2>Result</h2>
-						<img src="../img/suggestArtist.jpg"/>
+						<img src="../img/suggestArtist.jpg" class="wow fadeIn"/>
 					</div>
 				</div>
 			</div>
-			<div id="finalApp">
+			<div id="finalApp" class="wow fadeIn">
 				<h2>Final App Design</h2>
 				<img src="../img/fullsite.jpg" alt="">
 			</div>
 			<div class="ghLink">
-				<a href="https://github.com/karenucol/jukebox">View on Github</a>
+				<a href="https://github.com/iseo12/jukebox">View on Github</a>
 			</div>
 		</section>
 		<nav id="other_projects" class="content-2">
@@ -135,16 +136,20 @@
 			<a href="http://www.linkedin.com/in/iseo12" target="_blank">
 				<i class="fa fa-linkedin fa-3x"></i>
 			</a>
-			<a href="">
+			<a href="mailto:iseo12@gmail.com">
 				<i class="fa fa-envelope fa-3x"></i>
 			</a>
 		</section>
 		<footer>
 			<div class="container">
-				<p>Copyright &copy; 2015<span> Isaac Seo</span></p>
+				<p>Copyright &copy; 2018<span> Isaac Seo</span></p>
 			</div>
 		</footer>
 	</body>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="../js/main.js"></script>
+	<script src="../js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </html>

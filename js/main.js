@@ -13,7 +13,6 @@ var navHeight = $('.top_bar').outerHeight();
 console.log(navHeight);
 
 $('ul li').click(function (e) {
-	e.preventDefault();
 	$(this).addClass('selected').siblings().removeClass('selected');
 	var targetContent = $(this).data('navigation-item');
 	var topPosition = $('.content-' + targetContent).offset().top;

@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="../css/reset.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../css/animate.css">
 		<link rel="stylesheet" href="../css/projects.css">
 	</head>
 	<body>
@@ -41,7 +42,7 @@
 		<h1>GE Pulseband</h1>
 		<section id="roles_tools">
 			<div class="container">
-				<div class="desktop">
+				<div class="desktop wow fadeIn">
 					<img src="../img/pulsebandMac.png"/>
 				</div>
 			</div>
@@ -76,7 +77,7 @@
 				<p>GE Pulseband is a wearable health monitor that provides users with real-time data such as blood pressure, heart rate, steps, and sleep. I created a web app to allow the user to monitor this data over time. The icons on the dashboard allows users to switch between the four different types of data and gives a graph that tracks the pattern of the selected data type in a given range. Basic HTML/CSS and JavaScript were used to show the interactions between the selections of different data types.</p>
 			</div>
 		</section>
-		<div id="fullsite">
+		<div id="fullsite" class="wow fadeIn">
 			<h2>Final App Design</h2>
 			<img src="../img/pulsebandApp.png"/>
 		</div>
@@ -119,16 +120,20 @@
 			<a href="http://www.linkedin.com/in/iseo12" target="_blank">
 				<i class="fa fa-linkedin fa-3x"></i>
 			</a>
-			<a href="">
+			<a href="mailto:iseo12@gmail.com">
 				<i class="fa fa-envelope fa-3x"></i>
 			</a>
 		</section>
 		<footer>
 			<div class="container">
-				<p>Copyright &copy; 2015<span> Isaac Seo</span></p>
+				<p>Copyright &copy; 2018<span> Isaac Seo</span></p>
 			</div>
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="../js/main.js"></script>
+		<script src="../js/wow.min.js"></script>
+    <script>
+    	new WOW().init();
+    </script>
 	</body>
 </html>
